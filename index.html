@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tiny jsLaTeX</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="tiny-jslatex.js"></script>
+
+    <style>
+      .latex {
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea name="generador" id="generador" cols="30" rows="10"></textarea
+    ><br /><br />
+    Resultado:
+    <pre id="generado" class="latex"></pre>
+
+    <button id="magia">Guardar</button>
+  </body>
+</html>
